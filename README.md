@@ -1,9 +1,9 @@
 # ros-semantic-segmentation
 
 Run
-/code
+""
 rosrun ros-seantic-segmentation vedio_server.py   (Change the path to path of vedio you want to parse as rostopic)
-
+""
 This will parse the video and run it over a rostopic.  (image data published over topic is required for segmentation node to work)
 
 
