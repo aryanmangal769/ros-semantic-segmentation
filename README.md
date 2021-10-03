@@ -1,5 +1,12 @@
 # ros-semantic-segmentation
 
+Run
+/code
+rosrun ros-seantic-segmentation vedio_server.py   (Change the path to path of vedio you want to parse as rostopic)
+
+This will parse the video and run it over a rostopic.  (image data published over topic is required for segmentation node to work)
+
+
 A generalized semantic segmentation package for ROS that is agnostic to deep learning framework and model.
 
 Three models are provided. All are extremely lightweight, fast models so they can be included inside the repo without asking you to download some zip file from DropBox. They are not the most accurate models. You can implement your own following the examples.
